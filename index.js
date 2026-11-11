@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 // Route principale
 app.get("/", (req, res) => {
-    res.send("Hello from Render!");
+res.send("My first application deployed successfully!");
 });
 
 // Démarrer le serveur
